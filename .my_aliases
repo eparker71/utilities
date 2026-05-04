@@ -42,3 +42,7 @@ alias gco='git checkout'
 alias show='open .'
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+
+# Expo Go
+alias buildios="eas build --platform ios --profile production"
+alias deployios="eas submit --platform ios --profile production --latest"
